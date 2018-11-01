@@ -64,7 +64,7 @@ public class OpenCvCameraActivity extends AppCompatActivity implements CameraBri
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_open_cv);
         permiss();
         openCvCameraView = (JavaCameraView) findViewById(R.id.jcv);
         openCvCameraView.setCameraIndex(1);
